@@ -3,19 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		216119C5264B1F4B00B66D12 /* TextInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216119C4264B1F4B00B66D12 /* TextInput.swift */; };
+		216119C9264B200200B66D12 /* TextInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216119C8264B200200B66D12 /* TextInputView.swift */; };
+		216119CD264B8E8D00B66D12 /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216119CC264B8E8D00B66D12 /* ColorPickerView.swift */; };
+		216119D0264B952B00B66D12 /* CardColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216119CF264B952B00B66D12 /* CardColorView.swift */; };
+		216119D3264B986100B66D12 /* FilterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216119D2264B986100B66D12 /* FilterPresenter.swift */; };
+		216119D6264B98A000B66D12 /* FilterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216119D5264B98A000B66D12 /* FilterViewModel.swift */; };
 		21F484A326140E9200387826 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F484A226140E9200387826 /* AppDelegate.swift */; };
 		21F484A526140E9200387826 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F484A426140E9200387826 /* SceneDelegate.swift */; };
 		21F484A726140E9200387826 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F484A626140E9200387826 /* ViewController.swift */; };
 		21F484AA26140E9200387826 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21F484A826140E9200387826 /* Main.storyboard */; };
 		21F484AC26140E9200387826 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21F484AB26140E9200387826 /* Assets.xcassets */; };
 		21F484AF26140E9200387826 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21F484AD26140E9200387826 /* LaunchScreen.storyboard */; };
+		21F484BB26140F3E00387826 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F484BA26140F3E00387826 /* Coordinator.swift */; };
+		21F484BE26140F7E00387826 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F484BD26140F7E00387826 /* FilterViewController.swift */; };
+		21F484C126140F8400387826 /* ViewCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F484C026140F8400387826 /* ViewCodable.swift */; };
+		21F484C426140FF100387826 /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F484C326140FF100387826 /* FilterView.swift */; };
+		21F484C8261411C800387826 /* SketchKit in Frameworks */ = {isa = PBXBuildFile; productRef = 21F484C7261411C800387826 /* SketchKit */; };
+		21F484CC261411EC00387826 /* MagicSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 21F484CB261411EC00387826 /* MagicSDK */; };
+		21F484D12614176600387826 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F484D02614176600387826 /* Button.swift */; };
+		21F484D726141AC000387826 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F484D626141AC000387826 /* UIView+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		216119C4264B1F4B00B66D12 /* TextInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInput.swift; sourceTree = "<group>"; };
+		216119C8264B200200B66D12 /* TextInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInputView.swift; sourceTree = "<group>"; };
+		216119CC264B8E8D00B66D12 /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
+		216119CF264B952B00B66D12 /* CardColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardColorView.swift; sourceTree = "<group>"; };
+		216119D2264B986100B66D12 /* FilterPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterPresenter.swift; sourceTree = "<group>"; };
+		216119D5264B98A000B66D12 /* FilterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewModel.swift; sourceTree = "<group>"; };
 		21F4849F26140E9200387826 /* MagicApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21F484A226140E9200387826 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21F484A426140E9200387826 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +44,12 @@
 		21F484AB26140E9200387826 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21F484AE26140E9200387826 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21F484B026140E9200387826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21F484BA26140F3E00387826 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		21F484BD26140F7E00387826 /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		21F484C026140F8400387826 /* ViewCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCodable.swift; sourceTree = "<group>"; };
+		21F484C326140FF100387826 /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
+		21F484D02614176600387826 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		21F484D626141AC000387826 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +57,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21F484C8261411C800387826 /* SketchKit in Frameworks */,
+				21F484CC261411EC00387826 /* MagicSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		216119C3264B1F2F00B66D12 /* TextInput */ = {
+			isa = PBXGroup;
+			children = (
+				216119C4264B1F4B00B66D12 /* TextInput.swift */,
+			);
+			path = TextInput;
+			sourceTree = "<group>";
+		};
+		216119C7264B1FF500B66D12 /* SearchInput */ = {
+			isa = PBXGroup;
+			children = (
+				216119C8264B200200B66D12 /* TextInputView.swift */,
+			);
+			path = SearchInput;
+			sourceTree = "<group>";
+		};
+		216119CB264B8E6700B66D12 /* ColorPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				216119CC264B8E8D00B66D12 /* ColorPickerView.swift */,
+				216119CF264B952B00B66D12 /* CardColorView.swift */,
+			);
+			path = ColorPickerView;
+			sourceTree = "<group>";
+		};
 		21F4849626140E9100387826 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +109,9 @@
 		21F484A126140E9200387826 /* MagicApp */ = {
 			isa = PBXGroup;
 			children = (
+				21F484CF2614175A00387826 /* DesignSystem */,
+				21F484B926140F3700387826 /* Util */,
+				21F484B826140F2E00387826 /* Filter */,
 				21F484A226140E9200387826 /* AppDelegate.swift */,
 				21F484A426140E9200387826 /* SceneDelegate.swift */,
 				21F484A626140E9200387826 /* ViewController.swift */,
@@ -65,6 +121,38 @@
 				21F484B026140E9200387826 /* Info.plist */,
 			);
 			path = MagicApp;
+			sourceTree = "<group>";
+		};
+		21F484B826140F2E00387826 /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				216119CB264B8E6700B66D12 /* ColorPickerView */,
+				216119C7264B1FF500B66D12 /* SearchInput */,
+				21F484BD26140F7E00387826 /* FilterViewController.swift */,
+				21F484C326140FF100387826 /* FilterView.swift */,
+				216119D2264B986100B66D12 /* FilterPresenter.swift */,
+				216119D5264B98A000B66D12 /* FilterViewModel.swift */,
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
+		21F484B926140F3700387826 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				21F484BA26140F3E00387826 /* Coordinator.swift */,
+				21F484C026140F8400387826 /* ViewCodable.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		21F484CF2614175A00387826 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				216119C3264B1F2F00B66D12 /* TextInput */,
+				21F484D02614176600387826 /* Button.swift */,
+				21F484D626141AC000387826 /* UIView+Ext.swift */,
+			);
+			path = DesignSystem;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +171,10 @@
 			dependencies = (
 			);
 			name = MagicApp;
+			packageProductDependencies = (
+				21F484C7261411C800387826 /* SketchKit */,
+				21F484CB261411EC00387826 /* MagicSDK */,
+			);
 			productName = MagicApp;
 			productReference = 21F4849F26140E9200387826 /* MagicApp.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +202,10 @@
 				Base,
 			);
 			mainGroup = 21F4849626140E9100387826;
+			packageReferences = (
+				21F484C6261411C800387826 /* XCRemoteSwiftPackageReference "SketchKit" */,
+				21F484CA261411EC00387826 /* XCRemoteSwiftPackageReference "MagicSDK" */,
+			);
 			productRefGroup = 21F484A026140E9200387826 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,9 +233,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21F484C426140FF100387826 /* FilterView.swift in Sources */,
+				21F484BB26140F3E00387826 /* Coordinator.swift in Sources */,
 				21F484A726140E9200387826 /* ViewController.swift in Sources */,
+				216119C5264B1F4B00B66D12 /* TextInput.swift in Sources */,
+				21F484D12614176600387826 /* Button.swift in Sources */,
 				21F484A326140E9200387826 /* AppDelegate.swift in Sources */,
+				216119D0264B952B00B66D12 /* CardColorView.swift in Sources */,
+				216119D6264B98A000B66D12 /* FilterViewModel.swift in Sources */,
+				21F484D726141AC000387826 /* UIView+Ext.swift in Sources */,
 				21F484A526140E9200387826 /* SceneDelegate.swift in Sources */,
+				216119CD264B8E8D00B66D12 /* ColorPickerView.swift in Sources */,
+				21F484BE26140F7E00387826 /* FilterViewController.swift in Sources */,
+				21F484C126140F8400387826 /* ViewCodable.swift in Sources */,
+				216119D3264B986100B66D12 /* FilterPresenter.swift in Sources */,
+				216119C9264B200200B66D12 /* TextInputView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +404,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.babo.nicholas.MagicApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +423,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.babo.nicholas.MagicApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -341,6 +449,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		21F484C6261411C800387826 /* XCRemoteSwiftPackageReference "SketchKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dogo/SketchKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.0;
+			};
+		};
+		21F484CA261411EC00387826 /* XCRemoteSwiftPackageReference "MagicSDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/NickBabo/MagicSDK.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		21F484C7261411C800387826 /* SketchKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 21F484C6261411C800387826 /* XCRemoteSwiftPackageReference "SketchKit" */;
+			productName = SketchKit;
+		};
+		21F484CB261411EC00387826 /* MagicSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 21F484CA261411EC00387826 /* XCRemoteSwiftPackageReference "MagicSDK" */;
+			productName = MagicSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 21F4849726140E9100387826 /* Project object */;
 }
